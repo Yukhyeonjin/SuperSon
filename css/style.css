@@ -62,7 +62,7 @@ a:hover,a:focus {
 
 @media(min-width:768px) {
     body {
-        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+        padding-top: 100px;
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -89,7 +89,7 @@ a:hover,a:focus {
 }
 
 
-/* Toggle Animation */
+/* 토글 애니메이션 */
 
 .navbar-toggle * {
 	-ms-transition: all 0.4s ease;
@@ -191,15 +191,6 @@ a:hover,a:focus {
 	padding-right: 0.1em;
 	padding-left: –0.03em;
 }
-
-/* Firefox Fix */
-
-@-moz-document url-prefix() {
-    .big-letter p:first-child:first-letter {
-        padding-top: 0.08em;
-    }
-}
-
 
 /* Gallery */
 
@@ -348,7 +339,7 @@ a:hover,a:focus {
 }
 
 
-/* Press */
+/* Record */
 
 .record p {
 	line-height:1.7em;
@@ -366,7 +357,7 @@ a:hover,a:focus {
 
 
 
-/* Brand */
+/* SNS */
 
 .logo-list img {
 	width:100%;
